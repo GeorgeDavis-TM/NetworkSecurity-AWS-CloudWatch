@@ -1,0 +1,36 @@
+{
+    "logTypes": [
+        {
+            "logName": "audit",
+            "enable": true
+        },
+        {
+            "logName": "host",
+            "enable": true
+        },
+        {
+            "logName": "ipsAlert",
+            "enable": true
+        },
+        {
+            "logName": "ipsBlock",
+            "enable": true
+        },
+        {
+            "logName": "quarantine",
+            "enable": true
+        },
+        {
+            "logName": "reputationAlert",
+            "enable": true
+        },
+        {
+            "logName": "reputationBlock",
+            "enable": true
+        },
+        {
+            "logName": "system",
+            "enable": true
+        }
+    ]
+}

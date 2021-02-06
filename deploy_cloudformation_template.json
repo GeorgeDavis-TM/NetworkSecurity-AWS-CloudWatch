@@ -1,0 +1,20 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Resources": {
+        "C1NSCloudWatchLogs": {
+            "Type": "AWS::Logs::LogGroup",
+            "Properties": {
+                "LogGroupName" : "cloudonenetworksecurity-logs",
+                "RetentionInDays" : 731
+            }
+        }
+    },
+    "Outputs": {
+        "C1NSCloudWatchLogGroupName": {
+            "Description" : "Cloud One Network Security logs are stored in this AWS CloudWatch Log Group",
+            "Value" : {
+                "Ref": "C1NSCloudWatchLogs"
+            }
+        }
+    }
+}
