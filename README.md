@@ -1,4 +1,4 @@
-# NetworkSecurity-AWS-CloudWatch Integration
+# NetworkSecurity-AWS-CloudWatchLogs Integration
 Automation to configure Trend Micro Cloud One Network Security to push IPS logs to AWS CloudWatch Log Group
 
 ## Setup Instructions
@@ -33,9 +33,9 @@ The Python script ensures the following -
 ## Contributing
 
 If you encounter a bug or think of a useful feature, need support for other providers, find something confusing in the docs, please
-**[Create a New Issue](https://github.com/GeorgeDavis-TM/NetworkSecurity-AWS-CloudWatch/issues/new)**
+**[Create a New Issue](https://github.com/GeorgeDavis-TM/NetworkSecurity-AWS-CloudWatchLogs/issues/new)**
 
- **PS.: Make sure to use the [Issue Template](https://github.com/GeorgeDavis-TM/NetworkSecurity-AWS-CloudWatch/tree/master/.github/ISSUE_TEMPLATE)**
+ **PS.: Make sure to use the [Issue Template](https://github.com/GeorgeDavis-TM/NetworkSecurity-AWS-CloudWatchLogs/tree/master/.github/ISSUE_TEMPLATE)**
 
 We :heart: pull requests. If you'd like to fix a bug or contribute to a feature or simply correct a typo, please feel free to do so.
 
